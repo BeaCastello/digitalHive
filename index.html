@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalHive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="abejita.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <img class="Logo" src="logo-fondotransparente.png" alt="Logo"></img>
+        <span class="hamburguesa" id="menu-hamburguesa" onclick="toggleMenu()">&#9776;</span>
+        <ul class="navlinks" id="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#quienes-somos">Quienes somos</a></li>
+            <li class="services"><a href="#services" id="services-Link">Temarios</a>                
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>            
+        </ul>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Bienvenido a DigitalHive</h1>
+            <p class="subtitulo">Aprende informática de manera práctica y a tu ritmo.</p>
+            <a href="#temario" class="btn">Comenzar</a>
+        </div>
+    </section>
+
+    <section id="temario" class="section">
+        <h2>Temario</h2>
+        <div class="temario-container">
+            <div class="temario-item">
+                <h3>Módulo 1: Introducción a la Informática</h3>
+                <p>Conceptos básicos, hardware, y software.</p>
+            </div>
+            <div class="temario-item">
+                <h3>Módulo 2: Programación Básica</h3>
+                <p>Introducción a los lenguajes de programación.</p>
+            </div>
+            <div class="temario-item">
+                <h3>Módulo 3: Redes y Seguridad</h3>
+                <p>Principios de redes y ciberseguridad.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recursos" class="section">
+        <h2>Recursos de Aprendizaje</h2>
+        <div class="recursos-container">
+            <div class="recurso-item">
+                <h3>PDF: Conceptos Básicos</h3>
+                <a href="docs/conceptos-basicos.pdf" download>Descargar</a>
+            </div>
+            <div class="recurso-item">
+                <h3>Video: Introducción a la Programación</h3>
+                <a href="videos/intro-programacion.mp4" download>Descargar</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Si tienes dudas o quieres más información, escríbenos:</p>
+        <a href="mailto:info@techclass.com" class="email-link">info@techclass.com</a>
+        <div class="social-icons">
+            <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 TechClass. Todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+
+</html>
