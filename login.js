@@ -1,14 +1,16 @@
-document.getElementById('login-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita el envío del formulario para pruebas
+function validateLogin() {
+    // Para loguearse
+    const validUsername = "admin";
+    const validPassword = "12345";
 
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
+    // Obtener valores del formulario
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-    if (username === "admin" && password === "1234") {
-        alert("Inicio de sesión exitoso");
-        // Redirigir al sitio completo
-        window.location.href = "dashboard.html";
+    // Validación del formulario
+    if (username === validUsername && password === validPassword) {
+        window.location.href = "plataforma.html"; // Redirige a la página principal
     } else {
-        alert("Usuario o contraseña incorrectos. Inténtelo de nuevo.");
+        alert("Usuario o contraseña incorrectos. Intente nuevamente.");
     }
-});
+}
