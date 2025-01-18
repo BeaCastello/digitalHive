@@ -70,7 +70,7 @@ const modulesData = {
       video: "video2.mp4",
       videoTitle: "Conceptos Básicos",
       videoDescription: "Video sobre los conceptos esenciales del curso.",
-      pdf: "modulo2.pdf"
+      pdf: "modulo1.pdf"
     },
     3: {
       title: "Módulo 3: Herramientas Avanzadas",
