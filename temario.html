@@ -30,35 +30,33 @@
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </section>
+
     <section class="temario-section">
-        <h1>Temario</h1>
+        <h1 class="temario-title">Temario</h1>
         <div class="temarios">
           <!-- Lista de módulos y temas -->
-          <div class="column column-modules">
+          <div class="column-modules">
             <h2>Módulos</h2>
             <ul id="modules-list">
               <li onclick="loadModule(1)"><b>Módulo 1:</b> Introducción a los ordenadores</li>
               <li onclick="loadModule(2)"><b>Módulo 2:</b> Sistemas operativos (SO)</li>
               <li onclick="loadModule(3)"><b>Módulo 3:</b> Introducción a Windows</li>
               <li onclick="loadModule(4)"><b>Módulo 4:</b> Tratamiento de textos (Microsoft Word)</li>
-              <li onclick="loadModule(2)"><b>Módulo 5:</b> Hoja de cálculo (Microsoft Excel)</li>
-              <li onclick="loadModule(3)"><b>Módulo 6:</b> Presentaciones con Power Point</li>
+              <li onclick="loadModule(5)"><b>Módulo 5:</b> Hoja de cálculo (Microsoft Excel)</li>
+              <li onclick="loadModule(6)"><b>Módulo 6:</b> Presentaciones con Power Point</li>
             </ul>
           </div>
     
-          <!-- Segunda columna: Contenido del módulo -->
-          <div class="column column-content" id="module-content">
+           <!-- Segunda columna: Contenido del módulo -->
+           <div class="column column-content" id="module-content">
             <h2 id="module-title">Seleccione un módulo</h2>
-            <p id="module-description">Haz clic en un tema para ver los detalles aquí.</p>
+            <p id="module-description">Haz clic en un tema para ver los detalles aquí.</p>            
             <a id="download-link" href="#" target="_blank" class="btn">Ver más</a>
           </div>
-    
+             
           <!-- Tercera columna: Video y descripción -->
           <div class="column column-video" id="module-video">
-            <video id="video-player" controls>
-              <source src="" type="video/mp4">
-              Tu navegador no soporta videos.
-            </video>
+            <video id="video-player" controls> <source src="" type="video/mp4"> <br></br>Tu navegador no soporta videos. </video>
             <h2 id="video-title">Título del video</h2>
             <p id="video-description">Descripción del video relacionado con el módulo.</p>
           </div>
