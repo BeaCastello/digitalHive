@@ -49,15 +49,12 @@ function getCookie(name) {
     return null;
 }
 
-
-
-
 // Datos de los módulos
 const modulesData = {
     1: {
       title: "Módulo 1: Introducción a los ordenadores",
       description: "- ¿Qué es una computadora?. </br>- Historia y evolución de las computadoras. </br> - Tipos de computadoras (PC, portátiles, servidores, etc.). </br> - Hardware y software. </br> - Periféricos.",       
-      video: "video1.mp4",
+      video: "Módulo1.mp4",
       videoTitle: "Conceptos básicos, hardware y software.",      
       pdf: "Curso.pdf"
     },

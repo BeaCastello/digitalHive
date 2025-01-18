@@ -184,13 +184,18 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .digital-hide {
-        flex-direction: column;
+    .digital-hide {       
         text-align: center;
     }
 
     .images-container {
         flex-direction: column;
+    }
+    .image-box {
+        width: 300px; 
+        display: flex; 
+        flex-direction: column;
+        margin-right: 25px;
     }
 }
 
