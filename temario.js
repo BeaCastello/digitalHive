@@ -60,34 +60,34 @@ const modulesData = {
     },
     2: {
       title: "Módulo 2: Sistemas operativos (SO)",
-      description: "Concepto y funciones de un sistema operativo.",
+      description: "- ¿Qué es un Sistema Operativo?. </br>- Características principales de un Sistema Operativo. </br>- Tipos de Sistemas Operativos más comunes. </br>- Pasos para instalar el Window 10.",
       video: "video2.mp4",
-      videoTitle: "Conceptos Básicos",
-      pdf: "modulo1.pdf"
+      videoTitle: "Conceptos Básicos¿Qué es un sistema operativo? Componentes, funciones y características.",
+      pdf: "módulo2.pdf"
     },
     3: {
-      title: "Módulo 3: Herramientas Avanzadas",
+      title: "Módulo 3: Introducción a Windows.",
       description: "Explora las herramientas avanzadas para maximizar tu aprendizaje.",
       video: "video3.mp4",
       videoTitle: "Herramientas Avanzadas",
       pdf: "modulo3.pdf"
     },
     4: {
-        title: "Módulo 1: Introducción a los ordenadores",
+        title: "Módulo 4: Tratamiento de textos (Microsoft Word)",
         description: "'¿Qué es el arraigo?','imagenes/arraigo1.png', '¿Qué es el arraigo?', 'El arraigo es un procedimiento establecido en la normativa de extranjería en España, que permite a los ciudadanos no pertenecientes a la Unión Europea y que han residido en el país en situación irregular durante un periodo determinado, obtener la residencia legal y regularizar su situación. <br><br> Este tipo de autorización de residencia, otorgada por circunstancias excepcionales, permite al beneficiario residir legalmente en España durante un año, con la posibilidad de renovación para obtener un permiso de residencia a largo plazo.<br><br>El procedimiento de arraigo, regulado por la Ley Orgánica 4/2000 y el Real Decreto 557/2011 sobre extranjería, permite a cualquier ciudadano extracomunitario vivir y trabajar en España de manera legal. Los beneficiarios pueden desempeñarse como trabajadores autónomos, o como trabajadores por cuenta ajena en todo el Territorio Nacional. <br><br>El arraigo es una vía accesible para aquellos que ingresan al país como turistas y buscan regularizar su situación. Una de las principales ventajas de este procedimiento es que puede iniciarse desde España y, en comparación con otros permisos de residencia, implica trámites considerablemente menos complejos que los que se suelen exigir desde el país de origen.'", 
         video: "video1.mp4",
         videoTitle: "Video de Introducción",
         pdf: "modulo1.pdf"
       },
       5: {
-        title: "Módulo 1: Introducción a los ordenadores",
+        title: "Módulo 5: Hoja de cálculo (Microsoft Excel)",
         description: "'¿Qué es el arraigo?','imagenes/arraigo1.png', '¿Qué es el arraigo?', 'El arraigo es un procedimiento establecido en la normativa de extranjería en España, que permite a los ciudadanos no pertenecientes a la Unión Europea y que han residido en el país en situación irregular durante un periodo determinado, obtener la residencia legal y regularizar su situación. <br><br> Este tipo de autorización de residencia, otorgada por circunstancias excepcionales, permite al beneficiario residir legalmente en España durante un año, con la posibilidad de renovación para obtener un permiso de residencia a largo plazo.<br><br>El procedimiento de arraigo, regulado por la Ley Orgánica 4/2000 y el Real Decreto 557/2011 sobre extranjería, permite a cualquier ciudadano extracomunitario vivir y trabajar en España de manera legal. Los beneficiarios pueden desempeñarse como trabajadores autónomos, o como trabajadores por cuenta ajena en todo el Territorio Nacional. <br><br>El arraigo es una vía accesible para aquellos que ingresan al país como turistas y buscan regularizar su situación. Una de las principales ventajas de este procedimiento es que puede iniciarse desde España y, en comparación con otros permisos de residencia, implica trámites considerablemente menos complejos que los que se suelen exigir desde el país de origen.'", 
         video: "video1.mp4",
         videoTitle: "Video de Introducción",
         pdf: "modulo1.pdf"
       },
       6: {
-        title: "Módulo 1: Introducción a los ordenadores",
+        title: "Módulo 6: Presentaciones con Power Point",
         description: "'¿Qué es el arraigo?','imagenes/arraigo1.png', '¿Qué es el arraigo?', 'El arraigo es un procedimiento establecido en la normativa de extranjería en España, que permite a los ciudadanos no pertenecientes a la Unión Europea y que han residido en el país en situación irregular durante un periodo determinado, obtener la residencia legal y regularizar su situación. <br><br> Este tipo de autorización de residencia, otorgada por circunstancias excepcionales, permite al beneficiario residir legalmente en España durante un año, con la posibilidad de renovación para obtener un permiso de residencia a largo plazo.<br><br>El procedimiento de arraigo, regulado por la Ley Orgánica 4/2000 y el Real Decreto 557/2011 sobre extranjería, permite a cualquier ciudadano extracomunitario vivir y trabajar en España de manera legal. Los beneficiarios pueden desempeñarse como trabajadores autónomos, o como trabajadores por cuenta ajena en todo el Territorio Nacional. <br><br>El arraigo es una vía accesible para aquellos que ingresan al país como turistas y buscan regularizar su situación. Una de las principales ventajas de este procedimiento es que puede iniciarse desde España y, en comparación con otros permisos de residencia, implica trámites considerablemente menos complejos que los que se suelen exigir desde el país de origen.'", 
         video: "video1.mp4",
         videoTitle: "Video de Introducción",
