@@ -91,7 +91,35 @@
                 class="whatsapp-icon">
         </a>
     </div>
+<!-- Contacto -->
 
+<div class="container-contact">
+    <div class="content">
+        <p class="form-title">NO ESTAS SOLO(A)</p>
+        <p class="form-subtitle">Estamos aquí para ayudarte</p><br></br>
+
+        <form id="contactForm">
+            <label for="name"><b>Nombre:</b></label>
+            <input class="input-contactForm" type="text" id="name" name="name" required>
+
+            <label class="email" for="email"><b>E-mail:</b></label>
+            <input class="input-contactForm" type="email" id="email" name="email" required>
+
+            <label class="phone" for="phone"><b>Número de teléfono:</b></label>
+            <input class="input-contactForm" type="tel" name="phone" required>
+
+            <label class="consulta" for="consulta"><b>Mensaje:</b></label>
+            <textarea id="consulta" name="consulta" required></textarea>
+
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                Acepto el <a href="#">aviso legal/política de privacidad</a>.
+            </label>
+
+            <button class="sendButton" type="submit" id="sendButton">Enviar</button>
+        </form>
+    </div>
+</div>
  
     <footer class="footer">
         <p>Si tienes dudas o quieres más información, escríbenos:</p>
