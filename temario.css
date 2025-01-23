@@ -216,3 +216,51 @@ line-height: 35px;
         flex-direction: column;
     }
 }
+
+
+/* Footer */
+.footer {  
+    margin-top: 40px;  
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 16px;   
+    bottom: 0;    
+  }
+  i{
+    color: #5c6bc0;
+    margin-left: 10px;
+  }
+
+  i:hover{
+    color: #bed7f0;
+    font-size: 20px;
+  }
+
+ /* Estilo Whatsapp */
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    z-index: 1000;
+    float: right; 
+    margin-right: 20px;      
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-button img {
+    width: 35px;
+    height: 35px;
+}

@@ -2,67 +2,89 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalHive</title>
-    <link rel="stylesheet" href="temario.css">
-    <link rel="icon" href="imagenes/abejita.png" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="temario.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigitalHive</title>
+  <link rel="stylesheet" href="temario.css">
+  <link rel="icon" href="imagenes/abejita.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="temario.js" defer></script>
 </head>
 
 <body>
-    <header class="navbar-redes">
-        <section class="redes">
-            <a href="mailto:designerbrm@gmail.com" id="contact-link"><i class="fas fa-envelope"></i></a>
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i> </a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> </a>
-        </section>
-    </header>
-    <section class="navbar">
-        <img class="Logo" src="imagenes/abejita4.png" alt="Logo"></img>
-        <span class="hamburguesa" id="menu-hamburguesa" onclick="toggleMenu()">&#9776;</span>
-        <ul class="navlinks" id="nav-links">
-            <li><a href="plataforma.html">Inicio</a></li>
-            <li><a href="#Acerca de LitleHiveDigital">Acerca de LitleHiveDigital</a></li>
-            <li><a href="temario.html">Temario</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+  <header class="navbar-redes">
+    <section class="redes">
+      <a href="mailto:designerbrm@gmail.com" id="contact-link"><i class="fas fa-envelope"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i> </a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> </a>
     </section>
+  </header>
+  <section class="navbar">
+    <img class="Logo" src="imagenes/abejita4.png" alt="Logo"></img>
+    <span class="hamburguesa" id="menu-hamburguesa" onclick="toggleMenu()">&#9776;</span>
+    <ul class="navlinks" id="nav-links">
+      <li><a href="plataforma.html">Inicio</a></li>
+      <li><a href="#Acerca de LitleHiveDigital">Acerca de LitleHiveDigital</a></li>
+      <li><a href="temario.html">Temario</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </section>
 
-    <section class="temario-section">
-        <h1 class="temario-title">Temario</h1>
-        <div class="temarios">
-          <!-- Lista de módulos y temas -->
-          <div class="column-modules">
-            <h2>Módulos</h2>
-            <ul id="modules-list">
-              <li onclick="loadModule(1)"><b>Módulo 1:</b> Introducción a los ordenadores</li>
-              <li onclick="loadModule(2)"><b>Módulo 2:</b> Sistemas operativos (SO)</li>
-              <li onclick="loadModule(3)"><b>Módulo 3:</b> Introducción a Windows</li>
-              <li onclick="loadModule(4)"><b>Módulo 4:</b> Tratamiento de textos (Microsoft Word)</li>
-              <li onclick="loadModule(5)"><b>Módulo 5:</b> Hoja de cálculo (Microsoft Excel)</li>
-              <li onclick="loadModule(6)"><b>Módulo 6:</b> Presentaciones con Power Point</li>
-            </ul>
-          </div>
-    
-           <!-- Segunda columna: Contenido del módulo -->
-           <div class="column column-content" id="module-content">
-            <h2 id="module-title">Seleccione un módulo</h2>
-            <p id="module-description">Haz clic en un tema para ver los detalles aquí.</p>            
-            <a id="download-link" href="#" target="_blank" class="btn">Ver más</a>
-          </div>
-             
-          <!-- Tercera columna: Video y descripción -->
-          <div class="column column-video" id="module-video">
-            <video id="video-player" controls> <source src="" type="video/mp4"> <br></br>Tu navegador no soporta videos. </video>
-            <h2 id="video-title">Título del video</h2>
-            <p id="video-description">Descripción del video relacionado con el módulo.</p>
-          </div>
-        </div>
-      </section>
-    
+  <section class="temario-section">
+    <h1 class="temario-title">Temario</h1>
+    <div class="temarios">
+      <!-- Lista de módulos y temas -->
+      <div class="column-modules">
+        <h2>Módulos</h2>
+        <ul id="modules-list">
+          <li onclick="loadModule(1)"><b>Módulo 1:</b> Introducción a los ordenadores</li>
+          <li onclick="loadModule(2)"><b>Módulo 2:</b> Sistemas operativos (SO)</li>
+          <li onclick="loadModule(3)"><b>Módulo 3:</b> Introducción a Windows</li>
+          <li onclick="loadModule(4)"><b>Módulo 4:</b> Tratamiento de textos (Microsoft Word)</li>
+          <li onclick="loadModule(5)"><b>Módulo 5:</b> Hoja de cálculo (Microsoft Excel)</li>
+          <li onclick="loadModule(6)"><b>Módulo 6:</b> Presentaciones con Power Point</li>
+        </ul>
+      </div>
+
+      <!-- Segunda columna: Contenido del módulo -->
+      <div class="column column-content" id="module-content">
+        <h2 id="module-title">Seleccione un módulo</h2>
+        <p id="module-description">Haz clic en un tema para ver los detalles aquí.</p>
+        <a id="download-link" href="#" target="_blank" class="btn">Ver más</a>
+      </div>
+
+      <!-- Tercera columna: Video y descripción -->
+      <div class="column column-video" id="module-video">
+        <video id="video-player" controls>
+          <source src="" type="video/mp4"> <br></br>Tu navegador no soporta videos.
+        </video>
+        <h2 id="video-title">Título del video</h2>
+        <p id="video-description">Descripción del video relacionado con el módulo.</p>
+      </div>
+    </div>
+
+    <!-- Conexión al WhatsApp -->
+    <div class="whatsapp-container" id="whatsapp-container">
+      <a href="https://wa.me/34637635577" target="_blank" class="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+          class="whatsapp-icon">
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer">
+    <p>Si tienes dudas o quieres más información, escríbenos:</p>
+    <a href="mailto:designerbrm@gmail.com" id="contact-link"><i class="fas fa-envelope"></i></a>
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i> </a>
+    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> </a>
+    <p>&copy; 2025 LitleHiveDigital. Todos los derechos reservados.</p>
+  </footer>
+
+
+
 </body>
 
 </html>
