@@ -226,6 +226,177 @@ color: aliceblue;
     }
 }
 
+.container-company {
+    background-color: #dde3e9;
+    height: 90px;
+    margin-top: 20px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.info-subtitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  Estilos Contactos */
+.container-contact {
+    display: flex;
+    
+    align-items: center;
+    padding: 20px;      
+}
+.imgFormulario{
+    width: 50%;
+}
+
+.content {
+    width: 450px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.form-title {     
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-left: 20px;
+}
+
+.input-contactForm,
+textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.terms-label {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sendButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 10px 0px 10px 0px;
+        width: 320px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .form-subtitle {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    .input-contactForm,
+    textarea {
+        font-size: 13px;
+    }
+
+    .sendButton {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-title {
+        font-size: 18px;
+    }
+
+    .form-subtitle {
+        font-size: 14px;
+    }
+
+    .sendButton {
+        font-size: 12px;
+    }
+
+    .container-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 /* Footer */
 .footer {  
     margin-top: 40px;  

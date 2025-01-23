@@ -110,11 +110,51 @@
     </section>
 
     <!-- Conexión al WhatsApp -->
-    <div class="whatsapp-container" id="whatsapp-container">       
-        <a href="https://wa.me/34637635577" target="_blank" class="whatsapp-button">            
+    <div class="whatsapp-container" id="whatsapp-container">
+        <a href="https://wa.me/34637635577" target="_blank" class="whatsapp-button">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
                 class="whatsapp-icon">
         </a>
+    </div>
+
+    <div class="container-company">
+        <p class="info-subtitle"> Ponte en contacto con nosotros y te atenderemos enseguida.
+        </p>
+    </div>
+
+    <!-- Contacto -->
+
+    <div class="container-contact">
+        <div class="right-section">
+            <img class="imgFormulario" src="imagenes/banner1.jpg" alt="imagenFormulario"></img>
+        </div>
+
+        <div class="content">
+            <p class="form-title">ROMPIENDO BARRERAS</p>
+            <p class="form-subtitle">Si tienes dudas o necesitas apoyo, estamos aquí para ayudarte.</p><br></br>
+
+            <form id="contactForm">
+                <label for="name"><b>Nombre:</b></label>
+                <input class="input-contactForm" type="text" id="name" name="name" required>
+
+                <label class="email" for="email"><b>E-mail:</b></label>
+                <input class="input-contactForm" type="email" id="email" name="email" required>
+
+                <label class="phone" for="phone"><b>Número de teléfono:</b></label>
+                <input class="input-contactForm" type="tel" name="phone" required>
+
+                <label class="consulta" for="consulta"><b>Mensaje:</b></label>
+                <textarea id="consulta" name="consulta" required></textarea>
+
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    Acepto el <a href="#">aviso legal/política de privacidad</a>.
+                </label>
+
+                <button class="sendButton" type="submit" id="sendButton">Enviar</button>
+            </form>
+        </div>
+
     </div>
 
     <!-- Footer-->
