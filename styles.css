@@ -241,25 +241,6 @@ body {
     margin: 0 10px;
 }
 
-/* Footer */
-.footer {      
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px 20px;
-    font-size: 16px;   
-    bottom: 0;    
-  }
-  i{
-    color: #5c6bc0;
-    margin-left: 10px;
-  }
-
-  i:hover{
-    color: #bed7f0;
-    font-size: 20px;
-  }
-
  /* Estilo Whatsapp */
 
 .whatsapp-container {
@@ -440,3 +421,21 @@ textarea {
         align-items: center;
     }
 }
+/* Footer */
+.footer {      
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 16px;   
+    bottom: 0;    
+  }
+  i{
+    color: #5c6bc0;
+    margin-left: 10px;
+  }
+
+  i:hover{
+    color: #bed7f0;
+    font-size: 20px;
+  }
