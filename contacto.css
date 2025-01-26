@@ -12,7 +12,7 @@ header {
 }
 
 .link-redes {
-    text-align: right;   
+    text-align: right;
 }
 
 #icono-redes {
@@ -77,11 +77,20 @@ header {
     .navlinks {
         display: none;
         flex-direction: column;
-        background-color: transparent;
+        background-color: #e7dfdf;
         width: 100%;
         position: absolute;
-        top: 60px;
+        top: 90px;
         left: 0;
+    }
+
+    .navlinks a {
+        color: black;
+    }
+
+    .navlinks a:hover {
+        color: rgb(250, 192, 117);
+        background-color: #34495E;
     }
 
     .navlinks.show {
@@ -160,6 +169,7 @@ header {
     width: 100%;
     margin-bottom: 20px;
 }
+
 .separator1 {
     height: 2px;
     background-color: rgb(250, 192, 117);
@@ -202,12 +212,13 @@ header {
     color: black;
     margin-right: 50px;
 }
+
 .fa-brands,
 .fab {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
     color: black;
-    letter-spacing: 9px;   
+    letter-spacing: 9px;
 }
 
 .contact1 {
@@ -262,8 +273,9 @@ header {
         margin-bottom: 15px;
         flex-direction: column;
     }
+
     .contact>a {
-        text-align: left;        
+        text-align: left;
         margin-left: 5px;
         text-decoration: none;
         color: black;
@@ -273,23 +285,24 @@ header {
     }
 
     .contact1 {
-      text-align: left;
-      margin-top: -6px;
+        text-align: left;
+        margin-top: -6px;
     }
+
     .fa-phone:before {
         content: "\f095";
         margin-left: -18px;
     }
 
-.about-content p {
-    width: 97%;
-    margin-right: 20px;
-}
+    .about-content p {
+        width: 97%;
+        margin-right: 20px;
+    }
 
-.fa-envelope:before {
-    content: "\f0e0";
-    margin-left: -18px;
-    display: flex;
+    .fa-envelope:before {
+        content: "\f0e0";
+        margin-left: -18px;
+        display: flex;
     }
 }
 
@@ -339,9 +352,9 @@ header {
 
 /* Texto Ver más */
 
-.link-vermas{
+.link-vermas {
     padding: 20px;
-    }
+}
 
 /*  Estilos Contactos */
 
@@ -523,6 +536,7 @@ textarea {
     transform: translateX(-10px);
     transition: opacity 0.3s, transform 0.5s;
 }
+
 
 /* Footer */
 .footer {
