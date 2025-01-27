@@ -67,10 +67,10 @@ const modulesData = {
     },
     3: {
       title: "Módulo 3: Introducción a Windows.",
-      description: "Explora las herramientas avanzadas para maximizar tu aprendizaje.",
+      description: "<b>1.- Introducción a Windows.</b> </br> <b> 1.1) Historia y versiones principales de Windows. </b> </br><b> 1.2)	Requisitos del sistema e instalación. </b></br><b> 1.3) Iniciar sesión y la interfaz gráfica: </b></br> -	Escritorio. </br> -	Menú de Inicio.  </br>  - Explorador de archivos. </br> <b> 2.- Fundamentos de uso </b></br> 	</b><b> 2.1)	Navegación básica:</b> </br> -	Iconos, carpetas y accesos directos. </br> -	Seleccionar, copiar, cortar, pegar y mover archivos.</b> </br><b> 2.2)	Personalización...</br></b>",
       video: "video3.mp4",
-      videoTitle: "Herramientas Avanzadas",
-      pdf: "modulo3.pdf"
+      videoTitle: "Introducción a Windows y sus Principales Funcionalidades.",
+      pdf: "módulo3.pdf"
     },
     4: {
         title: "Módulo 4: Tratamiento de textos (Microsoft Word)",
