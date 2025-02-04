@@ -67,7 +67,7 @@ const modulesData = {
     },
     3: {
       title: "Módulo 3: Introducción a Windows.",
-      description: "<b>1.- Introducción a Windows.</b> </br> <b> 1.1) Historia y versiones principales de Windows. </b> </br><b> 1.2)	Requisitos del sistema e instalación. </b></br><b> 1.3) Iniciar sesión y la interfaz gráfica: </b></br> -	Escritorio. </br> -	Menú de Inicio.  </br>  - Explorador de archivos. </br> <b> 2.- Fundamentos de uso </b></br> 	</b><b> 2.1)	Navegación básica:</b> </br> -	Iconos, carpetas y accesos directos. </br> -	Seleccionar, copiar, cortar, pegar y mover archivos.</b> </br><b> 2.2)	Personalización...</br></b>",
+      description: "- Introducción a Windows. </br> - Historia y versiones principales de Windows.  </br> -	Requisitos del sistema e instalación. </br>- Iniciar sesión y la interfaz gráfica:  <li> Escritorio. </li> <li> Menú de Inicio. </li> <li> Explorador de archivos.</li> -	Navegación básica:  <li>	Iconos, carpetas y accesos directos. </li> <li> Seleccionar, copiar, cortar, pegar y mover archivos. </li> - Personalización...",
       video: "video3.mp4",
       videoTitle: "Introducción a Windows y sus Principales Funcionalidades.",
       pdf: "módulo3.pdf"
