@@ -56,21 +56,24 @@ const modulesData = {
       description: "- ¿Qué es una computadora?. </br>- Historia y evolución de las computadoras. </br> - Tipos de computadoras (PC, portátiles, servidores, etc.). </br> - Hardware y software. </br> - Periféricos.",       
       video: "Módulo1.mp4",
       videoTitle: "Conceptos básicos, hardware y software.",      
-      pdf: "Curso.pdf"
+      pdf: "Curso.pdf",
+      pptx: "módulo1.pptx",
     },
     2: {
       title: "Módulo 2: Sistemas operativos (SO)",
       description: "- ¿Qué es un Sistema Operativo?. </br>- Características principales de un Sistema Operativo. </br>- Tipos de Sistemas Operativos más comunes. </br>- Pasos para instalar el Window 10.",
       video: "video2.mp4",
       videoTitle: "Conceptos Básicos¿Qué es un sistema operativo? Componentes, funciones y características.",
-      pdf: "módulo2.pdf"
+      pdf: "módulo2.pdf",
+      pptx: "módulo2.pptx",
     },
     3: {
       title: "Módulo 3: Introducción a Windows.",
       description: "- Introducción a Windows. </br> - Historia y versiones principales de Windows.  </br> -	Requisitos del sistema e instalación. </br>- Iniciar sesión y la interfaz gráfica:  <li> Escritorio. </li> <li> Menú de Inicio. </li> <li> Explorador de archivos.</li> -	Navegación básica:  <li>	Iconos, carpetas y accesos directos. </li> <li> Seleccionar, copiar, cortar, pegar y mover archivos. </li> - Personalización...",
       video: "video3.mp4",
       videoTitle: "Introducción a Windows y sus Principales Funcionalidades.",
-      pdf: "módulo3.pdf"
+      pdf: "módulo3.pdf",
+      pptx: "módulo3.pptx",
     },
     4: {
         title: "Módulo 4: Tratamiento de textos (Microsoft Word)",
@@ -104,6 +107,7 @@ const modulesData = {
     document.getElementById("module-title").textContent = module.title;
     document.getElementById("module-description").innerHTML = module.description;
     document.getElementById("download-link").href = module.pdf;
+    document.getElementById("download-link1").href = module.pptx;
   
     // Actualizar columna de video
     document.getElementById("video-player").src = module.video;
