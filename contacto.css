@@ -309,12 +309,18 @@ header {
 /* Temario */
 
 .section-temario {
+    padding: 0px 20px;
     text-align: center;
 }
-
-.titulo-temario {
+.titulo-temario{
     margin-bottom: 40px;
-    margin-top: 40px;
+}
+.title-module{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .temario-container,
@@ -333,13 +339,22 @@ header {
     width: 300px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: left;
+    font-size: 1.15em;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.description{
+    font-size: 17px;
+    font-weight: normal;
 }
 
 .email-link {
-    color: #4572a0;
+    color: #4572a0;;
     text-decoration: none;
 }
-
 .email-link:hover {
     color: #bed7f0;
     text-decoration: none;
@@ -350,11 +365,6 @@ header {
     margin: 0 10px;
 }
 
-/* Texto Ver más */
-
-.link-vermas {
-    padding: 20px;
-}
 
 /*  Estilos Contactos */
 
