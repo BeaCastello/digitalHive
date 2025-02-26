@@ -200,8 +200,8 @@ i {
 
 .column h2 {
     margin-top: 0px;
-    font-size: 1.2em;
-    text-decoration: underline;
+    font-size: 1em;
+    line-height: 35px;
 }
 #video-title{
 margin-top: 20px;
