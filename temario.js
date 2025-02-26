@@ -63,7 +63,7 @@ const modulesData = {
       title: "Módulo 2: Sistemas operativos (SO)",
       description: "- ¿Qué es un Sistema Operativo?. </br>- Características principales de un Sistema Operativo. </br>- Tipos de Sistemas Operativos más comunes. </br>- Pasos para instalar el Window 10.",
       video: "video2.mp4",
-      videoTitle: "Conceptos Básicos¿Qué es un sistema operativo? Componentes, funciones y características.",
+      videoTitle: "Conceptos básicos, componentes, características principales y funciones principales de los Sistemas Operativos",
       pdf: "módulo2.pdf",
       pptx: "módulo2.pptx",
     },
