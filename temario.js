@@ -54,8 +54,8 @@ const modulesData = {
     1: {
       title: "Módulo 1: Introducción a los ordenadores",
       description: "- ¿Qué es una computadora?. </br>- Historia y evolución de las computadoras. </br> - Tipos de computadoras (PC, portátiles, servidores, etc.). </br> - Hardware y software. </br> - Periféricos.",       
-      video: "Módulo1.mp4",
-      videoTitle: "Conceptos básicos, hardware y software.",      
+      video: "videoModulo1.mp4",
+      videoTitle: "Introducción a los ordenadores",      
       pdf: "Curso.pdf",
       pptx: "módulo1.pptx",
     },
