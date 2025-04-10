@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendario de Reuniones</title>
+  <link rel="stylesheet" href="calendario.css">
+  <script src="calendario.js" defer></script>
+  <body>
+    <a href="temario.html">Atrás</a>
+    <h1>Calendario de Reuniones</h1>
+    <div class="calendar" id="calendar"></div>
+  
+    <div class="form-container">
+      <h3>Agendar Reunión por Zoom</h3>
+      <form id="meetingForm">
+        <input type="text" id="studentName" placeholder="Nombre del estudiante" required />
+        <input type="datetime-local" id="meetingTime" required />
+        <input type="url" id="zoomLink" placeholder="Enlace de Zoom" required />
+        <button type="submit">Guardar Reunión</button>
+      </form>
+    </div>
+  </body>
+  </html>

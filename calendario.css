@@ -1,0 +1,39 @@
+body {
+      font-family: sans-serif;
+      margin: 2rem;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+    }
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 10px;
+      margin-bottom: 2rem;
+    }
+    .day {
+      background-color: #fff;
+      padding: 1rem;
+      text-align: center;
+      border: 1px solid #ddd;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background-color 0.2s;
+    }
+    .day:hover {
+      background-color: #e0f7fa;
+    }
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-container input, .form-container button {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+    }
