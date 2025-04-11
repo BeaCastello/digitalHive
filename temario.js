@@ -117,7 +117,7 @@ const modulesData = {
  // Calendario de reuniones
  const calendarContainer = document.getElementById("calendar");
 
- // Simulamos datos de reuniones
+ // Simulando datos de reuniones
  const reuniones = {
    '2025-04-10': [
      {
