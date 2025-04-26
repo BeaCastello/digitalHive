@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="prueba.css">
+  <title>Temario</title>
+  <script src="prueba.js" defer></script>
+  <body>
+    <div class="temario-container">
+        <!-- Column 1: Módulo List -->
+        <div class="column" id="col1">
+          <h3>Módulo</h3>
+          <ul class="module-list" id="moduleList">
+            <li data-id="1" class="active">Módulo 1</li>
+            <li data-id="2">Módulo 2</li>
+            <li data-id="3">Módulo 3</li>
+          </ul>
+          <div class="separator"></div>
+        </div>
+      
+        <!-- Column 2: Selected Módulo Details -->
+        <div class="column" id="col2">
+          <h3 id="moduleTitle">Módulo 1</h3>
+          <p class="module-description" id="moduleDesc">Descripción del Módulo 1</p>
+          <div class="btns">
+            <button onclick="downloadPDF()">Descargar PDF</button>
+            <button onclick="toggleVideo()">Ver Video</button>
+          </div>
+          <video id="mainVideo" class="main-video" controls>
+            <source src="videoCurso.mp4" type="video/mp4">
+                      </video>
+          <div class="separator"></div>
+        </div>
+      
+        <!-- Column 3: Extra Videos -->
+        <div class="column" id="col3">
+          <div class="extra-video" id="extraVideos">
+            <!-- Dynamically loaded -->
+          </div>
+        </div>
+      </div>
+    </head>
+    <body>      
