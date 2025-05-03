@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-color: rgb(255, 124, 175);
+    background-color: rgb(243, 175, 201);
 }
 
 /* Barra de navegación */
@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f583c6;
+    background-color: #ed8ac445;
     color: #fff;
     position: fixed;
     top: 0;
@@ -81,6 +81,7 @@ body {
 
     .Logo {
         float: left;
+        width: 120px;
     }
 
 }

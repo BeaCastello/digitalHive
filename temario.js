@@ -53,23 +53,23 @@ function getCookie(name) {
 const modulesData = {
     1: {
       title: "Módulo 1: Introducción a los ordenadores",
-      description: "- ¿Qué es una computadora?. </br>- Historia y evolución de las computadoras. </br> - Tipos de computadoras (PC, portátiles, servidores, etc.). </br> - Hardware y software. </br> - Periféricos.",       
-      video: "videoModulo1.mp4",
+      description: "- ¿Qué es un ordenador?. </br>- Historia y evolución de los ordenadores. </br> - Tipos de ordenadores (PC, portátiles, servidores, etc.). </br> - Hardware y software. </br> - Periféricos.",       
+      video: "Módulo1.mp4",
       videoTitle: "Introducción a los ordenadores",      
-      pdf: "Curso.pdf",
+      pdf: "modulo1.pdf",
       pptx: "módulo1.pptx",
     },
     2: {
       title: "Módulo 2: Sistemas operativos (SO)",
       description: "- ¿Qué es un Sistema Operativo?. </br>- Características principales de un Sistema Operativo. </br>- Tipos de Sistemas Operativos más comunes. </br>- Pasos para instalar el Window 10.",
-      video: "videoModulo2.mp4",
+      video: "módulo2.mp4",
       videoTitle: "Sistemas Operativos(SO)",
       pdf: "módulo2.pdf",
       pptx: "módulo2.pptx",
     },
     3: {
       title: "Módulo 3: Introducción a Windows.",
-      description: "- Introducción a Windows. </br>- Iniciar sesión y la interfaz gráfica:  <li> Escritorio. </li> <li> Menú de Inicio. </li> <li> Explorador de archivos.</li> -	Navegación básica:  <li>	Iconos, carpetas y accesos directos. </li> <li> Seleccionar, copiar, cortar, pegar y mover archivos. </li> - Personalización...",
+      description: "- Introducción a Windows. </br>- Iniciar sesión. </br> -	Navegación básica:  <li>	Iconos, carpetas y accesos directos. </li> <li> Seleccionar, copiar, cortar, pegar y mover archivos.  </br> - Personalización...",
       video: "video3.mp4",
       videoTitle: "Introducción a Windows",
       pdf: "módulo3.pdf",
