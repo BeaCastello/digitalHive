@@ -6,25 +6,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DigitalHive</title>
   <link rel="stylesheet" href="calendario.css">
-  <link rel="icon" href="abejita.png" type="image/png">
+  <link rel="icon" href="imagenes/abejita.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <script src="script.js" defer></script>
+  <script src="calendario.js" defer></script>
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="banner">
+  <section class="bienvenida">
+    <div class="bienvenida-contenido">
       <h1>Bienvenido a LitleDigitalHive</h1>
-      <p class="subtitulo">Aprende informática de manera práctica y a tu ritmo.</p>
-      <a href="#temario" class="btn">Comenzar</a>
+      <p>¿Listo para avanzar? Reserva tu clase ahora.</p>
+      <button onclick="alert('¡Comenzamos!')">Comenzar</button>
     </div>
+  </section>
 
-  </header>
+  <!-- Temario-->
+  <div class="section-temario">
+    <h2 class="titulo-temario">Temario</h2>
+    <div class="temario-container">
+      <a href="#" class="temario-item">Módulo 1: Introducción a los ordenadores
+        <p class="description">Conceptos básicos, hardware, y software.</p>
+      </a>
+      <a href="#" class="temario-item">Módulo 2: Sistemas operativos (SO)
+        <p class="description"> Concepto, características principales y funciones de un Sistema Operativo.</p>
+      </a>
+      <a href="#" class="temario-item">Módulo 3: Introducción a Windows
+        <p class="description">Concepto, funciones principales y proceso de instalación.</p>
+      </a>
+      <a href="#" class="temario-item">Módulo 4: Tratamiento de textos (Microsoft Word)
+        <p class="description">Creación y Gestión de Documentos.</p>
+      </a>
+      <a href="#" class="temario-item">Módulo 5: Hoja de cálculo (Microsoft Excel)
+        <p class="description">Gestión de Hojas de Cálculo</p>
+      </a>
+      <a href="#" class="temario-item">Módulo 6: Presentaciones con Power Point
+        <p class="description">Creación de Presentaciones.</p>
+      </a>
+    </div>
+  </div>
 
+  <!-- Agenda de clases-->
+  <div class="agenda-container">
+    <h2>Agenda tus clases</h2>
 
+    <form id="agenda-form">
+      <input type="text" name="nombre" placeholder="Nombre del estudiante" required>
+      <input type="tel" name="telefono" placeholder="No. de teléfono" required>
+      <input type="email" name="email" placeholder="Correo electrónico" required>
+      <input type="text" name="curso" placeholder="Nombre del curso" required>
+      <textarea name="mensaje" placeholder="Mensaje:"></textarea>
 
+      <div class="calendar-selector">
+        <button type="button" onclick="cambiarMes(-1)">&#8592;</button>
+        <span id="mes-actual"></span>
+        <button type="button" onclick="cambiarMes(1)">&#8594;</button>
+      </div>
 
+      <div class="calendar-dates" id="calendar-dates">
+        <div><strong>Lu</strong></div>
+        <div><strong>Ma</strong></div>
+        <div><strong>Mi</strong></div>
+        <div><strong>Ju</strong></div>
+        <div><strong>Vi</strong></div>
+        <div><strong>Sá</strong></div>
+        <div><strong>Do</strong></div>
+      </div>
+
+      <div>
+        <strong>Selecciona hora:</strong>
+        <div id="hours" class="hours"></div>
+      </div>
+
+      <input type="hidden" name="fecha" id="fecha-elegida" required>
+      <input type="hidden" name="hora" id="hora-elegida" required>
+
+      <button type="submit" class="submit-btn">ENVIAR SOLICITUD</button>
+      <div class="note">
+        Luego de rellenar este formulario revise su correo electrónico. <br />
+        Contacto: <a href="mailto:designerbrm@gmail.com">designerbrm@gmail.com</a> | Tel: 637635577
+      </div>
+    </form>
+  </div>
+
+<script>
+  emailjs.init("Oyh2uTXc5UaZPqt7o"); 
+</script>
 
 
 

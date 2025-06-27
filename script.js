@@ -15,12 +15,14 @@ document.addEventListener('click', (e) => {
 
 
 // Función para mostrar el banner si no hay una cookie de aceptación
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
     if (!getCookie("cookiesAccepted")) {
-        document.getElementById("cookieBanner").style.display = "block";
+        const banner = document.getElementById("cookieBanner");
+        if (banner) {
+            banner.style.display = "block";
+        }
     }
-};
-
+});
 
 
 // Función para aceptar las cookies y ocultar el banner
@@ -64,7 +66,7 @@ window.addEventListener('scroll', () => {
 // Enlace con emailjs
 
 (function () {
-    emailjs.init("Oyh2uTXc5UaZPqt7o");
+    emailjs.init({publicKey:"Oyh2uTXc5UaZPqt7o"});
 })();
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
