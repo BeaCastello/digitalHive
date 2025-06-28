@@ -79,7 +79,7 @@ function mostrarHoras(d) {
     });
 }
 
-// Formulario estudiante
+// Conectarse con emailjs
 document.getElementById("agenda-form").addEventListener("submit", function (e) {
     e.preventDefault();
     if (!selDia || !hoInput.value) {
@@ -103,7 +103,7 @@ generarCalendario(hoy.getMonth(), hoy.getFullYear());
 document.getElementById("agenda-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm("servicio_9xutcqf", "template_rzjqc3b", this)
+    emailjs.sendForm("service_s2y62dk", "template_rzjqc3b", this)
       .then(function () {
         alert("Solicitud enviada con éxito. Revisa tu correo.");
       }, function (error) {
@@ -111,5 +111,5 @@ document.getElementById("agenda-form").addEventListener("submit", function (e) {
         alert("Hubo un problema al enviar la solicitud.");
       });
 
-    this.reset(); // Limpia el formulario
+    this.reset(); 
   });

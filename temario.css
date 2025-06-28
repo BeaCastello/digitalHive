@@ -214,66 +214,6 @@ line-height: 35px;
     }
 }
 
-/* Calendario de reuniones */
-
-  h2 {
-    text-align: center;
-  }
-  .calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    margin-top: 20px;
-  }
-  .day {
-    background: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    cursor: pointer;
-  }
-  .day.active {
-    border: 2px solid #007bff;
-  }
-  .meeting {
-    margin-top: 10px;
-    background: #e6f0ff;
-    padding: 10px;
-    border-left: 5px solid #007bff;
-    border-radius: 5px;
-  }
-  .meeting a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-  }
-  @media (max-width: 768px) {
-    .calendar {
-        display: flex;
-        flex-direction: column;
-  }
-}
-
-/* Footer */
-.footer {  
-    margin-top: 40px;  
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px 20px;
-    font-size: 16px;   
-    bottom: 0;    
-  }
-  i{
-    color: #5c6bc0;
-    margin-left: 10px;
-  }
-
-  i:hover{
-    color: #bed7f0;
-    font-size: 20px;
-  }
-
  /* Estilo Whatsapp */
 
 .whatsapp-container {
@@ -310,4 +250,59 @@ line-height: 35px;
     visibility: visible;    
     transform: translateX(-10px);
     transition: opacity 0.3s, transform 0.5s;
+}
+
+/* Footer */
+.footer {      
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 16px;   
+    bottom: 0;   
+    display: flex; 
+    
+  }
+  .footer i{
+    color: #5c6bc0;
+    margin-left: 5px;
+    margin-top: 16px;   
+  }
+
+  i:hover{
+    color: #bed7f0;
+    font-size: 20px;
+  }
+  .copy_p{
+    margin-left: 60px;
+  }
+  .redes{
+    display: flex;
+  }
+@media screen and (max-width: 480px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer i{
+    color: #5c6bc0;
+    display: flex;
+    margin-top: 15px;   
+  }
+  .copy_p{
+    margin-left: 0px;
+  }
+  .redes{
+    text-align: center;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 768px){
+    .redes{
+        margin-left: 40px;
+        margin-top: 10px;
+    }
 }

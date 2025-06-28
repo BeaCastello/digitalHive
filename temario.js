@@ -99,7 +99,7 @@ const modulesData = {
   };
   
   
-  // Función para cargar el contenido de un módulo
+  // Cargar el contenido de un módulo
   function loadModule(moduleId) {
     const module = modulesData[moduleId];
   
@@ -114,64 +114,4 @@ const modulesData = {
     document.getElementById("video-title").textContent = module.videoTitle;
     document.getElementById("video-description").textContent = module.videoDescription;
   }
- // Calendario de reuniones
- const calendarContainer = document.getElementById("calendar");
-
- // Simulando datos de reuniones
- const reuniones = {
-   '2025-04-10': [
-     {
-       hora: '10:00 AM',
-       duracion: '1h',
-       zoom: 'https://zoom.us/j/1234567890',
-     },
-     {
-       hora: '2:00 PM',
-       duracion: '2h',
-       zoom: 'https://zoom.us/j/0987654321',
-     }
-   ],
-   '2025-04-12': [
-     {
-       hora: '9:30 AM',
-       duracion: '1.5h',
-       zoom: 'https://zoom.us/j/2345678901',
-     }
-   ]
- };
-
- const diasSemana = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
-
- // Obtener la fecha actual
- const hoy = new Date();
- const semana = [];
-
- // Obtener la semana actual (domingo a sábado)
- for (let i = 0; i < 7; i++) {
-   const dia = new Date(hoy);
-   dia.setDate(hoy.getDate() - hoy.getDay() + i);
-   semana.push(dia);
- }
-
- semana.forEach((fecha) => {
-   const yyyy_mm_dd = fecha.toISOString().split("T")[0];
-   const diaDiv = document.createElement("div");
-   diaDiv.className = "day" + (fecha.toDateString() === hoy.toDateString() ? " active" : "");
-   diaDiv.innerHTML = `<strong>${diasSemana[fecha.getDay()]}</strong><br>${fecha.getDate()}/${fecha.getMonth() + 1}`;
-
-   // Añadir reuniones si existen
-   if (reuniones[yyyy_mm_dd]) {
-     reuniones[yyyy_mm_dd].forEach((r) => {
-       const meetDiv = document.createElement("div");
-       meetDiv.className = "meeting";
-       meetDiv.innerHTML = `
-         <div><strong>Hora:</strong> ${r.hora}</div>
-         <div><strong>Duración:</strong> ${r.duracion}</div>
-         <div><a href="${r.zoom}" target="_blank">Unirse por Zoom</a></div>
-       `;
-       diaDiv.appendChild(meetDiv);
-     });
-   }
-
-   calendarContainer.appendChild(diaDiv);
- });
+ 
