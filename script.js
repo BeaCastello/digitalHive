@@ -72,7 +72,7 @@ window.addEventListener('scroll', () => {
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault();
 
-    emailjs.sendForm("service_mmov9hk","template_imevdo7", this)
+    emailjs.sendForm("service_mmov9hk","template_hlmtxqe", this)
         .then(function () {
             alert('Correo enviado con éxito!');
         }, function (error) {

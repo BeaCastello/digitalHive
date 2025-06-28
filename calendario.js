@@ -85,7 +85,7 @@ document.getElementById("agenda-form").addEventListener("submit", function (e) {
     if (!selDia || !hoInput.value) {
         return alert("Selecciona fecha y hora.");
     }
-    emailjs.sendForm("service_jhu99xc", "template_rzjqc3b", this)
+    emailjs.sendForm("service_63kt75s", "template_qnh77ph", this)
         .then(() => {
             alert("¡Solicitud enviada!");
             this.reset(); hours.innerHTML = ""; feInput.value = ""; hoInput.value = "";
@@ -103,7 +103,7 @@ generarCalendario(hoy.getMonth(), hoy.getFullYear());
 document.getElementById("agenda-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_s2y62dk", "template_rzjqc3b", this)
+    emailjs.sendForm("service_63kt75s", "template_qnh77ph", this)
       .then(function () {
         alert("Solicitud enviada con éxito. Revisa tu correo.");
       }, function (error) {
