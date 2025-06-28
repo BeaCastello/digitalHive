@@ -14,7 +14,7 @@
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   height: 100vh;
+   height: 500px;
    padding: 2rem;
    background-image: url('imagenes/banner_agenda.png');
    background-size: cover;
@@ -24,15 +24,15 @@
  }
 
  .bienvenida-contenido {
-   max-width: 800px;
+   max-width: 700px;
    background-color: rgba(0, 0, 0, 0.4);
-   /* fondo semitransparente para mejor lectura */
+  
    padding: 2rem;
    border-radius: 12px;
  }
 
  .bienvenida h1 {
-   font-size: 3rem;
+   font-size: 2.5rem;
    margin-bottom: 1rem;
  }
 
@@ -50,6 +50,10 @@
    border-radius: 8px;
    cursor: pointer;
    transition: background-color 0.3s ease;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-self: center;
  }
 
  .bienvenida button:hover {
@@ -57,10 +61,9 @@
  }
 
  @media (max-width: 768px) {
-   .bienvenida {
-     justify-content: center;
-     padding: 1rem;
-     text-align: center;
+   .bienvenida {     
+     padding: 1rem;    
+     height: 400px;
    }
 
    .bienvenida-contenido {

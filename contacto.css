@@ -221,8 +221,8 @@ header {
     letter-spacing: 9px;
 }
 
-.contact1 {
-    margin-top: 20px;
+.contact_point {
+    display: flex;
 }
 
 /* Responsive Styles */
@@ -286,7 +286,7 @@ header {
 
     .contact1 {
         text-align: left;
-        margin-top: -6px;
+       margin-left: 40px;
     }
 
     .fa-phone:before {
@@ -312,10 +312,12 @@ header {
     padding: 0px 20px;
     text-align: center;
 }
-.titulo-temario{
+
+.titulo-temario {
     margin-bottom: 40px;
 }
-.title-module{
+
+.title-module {
     font-size: 16px;
     color: #333;
     text-decoration: none;
@@ -346,15 +348,18 @@ header {
     font-weight: bold;
     margin-bottom: 30px;
 }
-.description{
+
+.description {
     font-size: 17px;
     font-weight: normal;
 }
 
 .email-link {
-    color: #4572a0;;
+    color: #4572a0;
+    ;
     text-decoration: none;
 }
+
 .email-link:hover {
     color: #bed7f0;
     text-decoration: none;
