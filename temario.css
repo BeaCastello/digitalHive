@@ -278,6 +278,7 @@ line-height: 35px;
   }
   .redes{
     display: flex;
+    float: right; 
   }
 @media screen and (max-width: 480px) {
     .footer{
@@ -297,12 +298,11 @@ line-height: 35px;
     margin-right: 0px;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
-  }
+     }
 }
 @media screen and (max-width: 768px){
     .redes{
         margin-left: 40px;
-        margin-top: 10px;
+        float: right;       
     }
 }

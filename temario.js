@@ -41,21 +41,21 @@ const modulesData = {
     },
     4: {
         title: "Módulo 4: Tratamiento de textos (Microsoft Word)",
-        description: "-	Introducción a Microsoft Word. <li> Historia y evolución de Microsoft Word.  </li> <li>	Instalación y versiones disponibles. </li> <li>	Interfaz principal: cinta de opciones, barra de herramientas y área de trabajo. </br> -	Creación y Edición de Documentos. <li> 	Abrir, guardar y cerrar documentos. </li> <li>Creación de documentos en blanco y uso de plantillas. </li> <li>	Modos de vista y navegación en el documento...</li>", 
+        description: "-	Introducción a Microsoft Word. <li> Historia y evolución de Microsoft Word.  </li> <li>	Instalación y versiones disponibles. </li> <li>	Interfaz principal: cinta de opciones, barra de ... </br> -	Creación y Edición de Documentos. <li> 	Abrir, guardar y cerrar documentos. </li> <li>Creación de documentos en blanco... </li>", 
         video: "video1.mp4",
         videoTitle: "Video de Introducción",
         pdf: "modulo1.pdf"
       },
       5: {
         title: "Módulo 5: Hoja de cálculo (Microsoft Excel)",
-        description: "-	Introducción a Microsoft Word. <li> Historia y evolución de Microsoft Word.  </li> <li>	Instalación y versiones disponibles. </li> <li>	Interfaz principal: cinta de opciones, barra de herramientas y área de trabajo. </br> -	Creación y Edición de Documentos. <li> 	Abrir, guardar y cerrar documentos. </li> <li>Creación de documentos en blanco y uso de plantillas. </li> <li>	Modos de vista y navegación en el documento...</li>", 
+        description: "-	Introducción a Microsoft Excel <li> Instalación y requisitos del sistema. </li> <li> Interfaz de usuario: cinta de opciones, barras de herramientas y hoja de cálculo.  </li> - Conceptos Básicos y Manejo de Hojas de Cálculo  </br><li> Crear, abrir, guardar y cerrar libros de Excel.</li>  <li> Introducción a celdas, filas y columnas...", 
         video: "video1.mp4",
         videoTitle: "Video de Introducción",
         pdf: "modulo1.pdf"
       },
       6: {
         title: "Módulo 6: Presentaciones con Power Point",
-        description: "-	Introducción a Microsoft Word. <li> Historia y evolución de Microsoft Word.  </li> <li>	Instalación y versiones disponibles. </li> <li>	Interfaz principal: cinta de opciones, barra de herramientas y área de trabajo. </br> -	Creación y Edición de Documentos. <li> 	Abrir, guardar y cerrar documentos. </li> <li>Creación de documentos en blanco y uso de plantillas. </li> <li>	Modos de vista y navegación en el documento...</li>", 
+        description: "-	Introducción a Microsoft PowerPoint. <li> Instalación y requisitos del sistema. .  </li> <li>	Interfaz de usuario: cinta de opciones, diapositivas, área de notas y panel de vista previa. </li> - Creación y Gestión de Presentaciones...",
         video: "video1.mp4",
         videoTitle: "Video de Introducción",
         pdf: "modulo1.pdf"
@@ -76,6 +76,6 @@ const modulesData = {
     // Actualizar columna de video
     document.getElementById("video-player").src = module.video;
     document.getElementById("video-title").textContent = module.videoTitle;
-    document.getElementById("video-description").textContent = module.videoDescription;
+   
   }
  
