@@ -26,7 +26,7 @@
  .bienvenida-contenido {
    max-width: 700px;
    background-color: rgba(0, 0, 0, 0.4);
-  
+
    padding: 2rem;
    border-radius: 12px;
  }
@@ -61,8 +61,8 @@
  }
 
  @media (max-width: 768px) {
-   .bienvenida {     
-     padding: 1rem;    
+   .bienvenida {
+     padding: 1rem;
      height: 400px;
    }
 
@@ -278,4 +278,56 @@
    .note {
      grid-column: span 1;
    }
+ }
+
+ @media screen and (max-width: 480px) {
+
+  .agenda-container{
+    padding: 0px;
+    max-width: 350px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+   form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   input,
+   select,
+   textarea {
+     width: 90%;
+   }
+
+   .calendar-selector {
+     width: 297px;
+   }
+
+   .calendar-dates {
+     margin-left: 3px;
+     width: 297px;
+     text-align: center;
+   }
+
+   .note {
+     line-height: 25px;
+     display: flex;
+     flex-direction: column;
+   }
+
+   .submit-btn {
+     width: 98%;
+   }
+   .temario-container, .recursos-container {
+    justify-content: left;
+    gap:20px;
+   }
+.temario-item, .recurso-item{
+  width: 350px;
+}
+
  }
