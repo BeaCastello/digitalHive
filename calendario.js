@@ -1,4 +1,4 @@
-(function () { emailjs.init("Oyh2uTXc5UaZPqt7o"); })(); // Enlace con emailjs
+(function () { emailjs.init("GwzkNV8fKPkyxm6fB"); })(); // Enlace con emailjs
 
 const disponibilidad = {
     "2025-07": [23, 24, 25],
@@ -85,7 +85,7 @@ document.getElementById("agenda-form").addEventListener("submit", function (e) {
     if (!selDia || !hoInput.value) {
         return alert("Selecciona fecha y hora.");
     }
-    emailjs.sendForm("service_63kt75s", "template_qnh77ph", this)
+    emailjs.sendForm("service_yftwelk","template_9a4t6zr", this)
         .then(() => {
             alert("¡Solicitud enviada!");
             this.reset(); hours.innerHTML = ""; feInput.value = ""; hoInput.value = "";
@@ -98,12 +98,13 @@ document.getElementById("agenda-form").addEventListener("submit", function (e) {
 generarCalendario(hoy.getMonth(), hoy.getFullYear());
 
 
+
 // Email de confirmación para estudiante
 
 document.getElementById("agenda-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_63kt75s", "template_qnh77ph", this)
+    emailjs.sendForm("service_yftwelk", "template_ynytd9k", this)
       .then(function () {
         alert("Solicitud enviada con éxito. Revisa tu correo.");
       }, function (error) {
