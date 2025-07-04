@@ -34,7 +34,7 @@ const modulesData = {
     3: {
       title: "Módulo 3: Introducción a Windows.",
       description: "- Introducción a Windows. </br>- Iniciar sesión. </br> -	Navegación básica:  <li>	Iconos, carpetas y accesos directos. </li> <li> Seleccionar, copiar, cortar, pegar y mover archivos.  </br> - Personalización...",
-      video: "video3.mp4",
+      video: "videoModulo3.mp4",
       videoTitle: "Introducción a Windows",
       pdf: "módulo3.pdf",
       pptx: "módulo3.pptx",
